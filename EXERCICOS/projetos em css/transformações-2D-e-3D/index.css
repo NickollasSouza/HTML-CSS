@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+body .espaco {
+    transform: translatex(570px);
+    margin: 20px;
+    
+}
+#blue {
+    background-color: blue;
+    opacity: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+
+    
+}
+
+
+/* paragraafo do azul */
+#blue > p {
+    display: flex;
+    color:white;
+    font-size: 14pt;
+}
+
+
+#white {
+    background-color: yellow;
+    opacity: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}

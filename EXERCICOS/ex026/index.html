@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>criando meu primeiro formulario</h1>
+    <h2>caixa padrão</h2>
+    <form autocomplete="off">
+        <p><label for="nome">nome: </label><input type="text" name="nome" id="nome" placeholder="seu nome"></p>
+        <p><label for="sobrenome">sobrenome: </label><input type="text" name="sobrenome" id="sobrenome" placeholder="seu sobrenome"></p>
+        <p><input type="submit" value="enviar"></p>
+    </form>
+
+    <h2>para emails e senhas</h2>
+    <form action="cadastro php" autocomplete="off">
+        <p><label for="email">email: </label><input type="email" name="email" id="email" placeholder="seu email"></p>
+        <p><label for="senha">senha: </label><input type="password" name="senha" id="senha" placeholder="sua senha"></p>
+        <p><input type="submit" value="enviar"></p>
+    </form>
+
+    <h2>para data</h2>
+    <form action="cadastro php" autocomplete="off">
+        <p><label for="data">data de nascimento: </label><input type="date" name="data" id="data" placeholder="data"></p>
+        <p><label for="datahora">data e hora: </label><input type="datetime" name="datahora" id="datahora" placeholder="data e hora"></p>
+        <p><label for="datalocal">data local: </label><input type="datetime-local" name="datalocal" id="datalocal" placeholder="data hora e local"></p>
+    </form>
+</body>
+</html>

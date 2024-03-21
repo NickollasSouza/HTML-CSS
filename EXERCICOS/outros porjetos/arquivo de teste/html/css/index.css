@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+
+:root {
+    ---cor1: #10F9F9;
+    ---cor2: #E5F4E3;
+    ---cor3: #1B61DA;
+    ---cor4: #3A4DBB;
+    ---cor5: #21FDF5;
+    ---cor6: #0A81FF;
+    ---cor7: #BDD4E7;
+    ---font-madimi:'Madimi One';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#inicio {
+    background-image:linear-gradient(to right, var(---cor6), var(---cor3), var(---cor1));
+    width: 800;
+    height: 50px;
+}
+div#barra {
+    background-color: #BDD4E7;
+}
+
+header {
+    background-color: black;
+    background-image: url('darksouls img/desktop-wallpaper-anime-sky-sky-anime.png');
+    padding: 100px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#titulo1 {
+    text-align: center;
+    color: var(---cor5);
+    text-decoration: underline;
+    font-family:var(---font-madimi);
+    font-size: 10em;
+}
+#paragrafo1 {
+    text-align: center;
+    font-family:var(---font-madimi);
+    font-size: 30px;
+    color: var(---cor5);
+}
+
+body {
+    background-color: black;
+    background-image: url('darksouls img/night1.png');
+    background-size: cover;
+    position: relative;
+}
+
+
+#primeirap {
+    padding-top: 0px;
+}
+main#primeiro {
+    background-image:linear-gradient(to bottom, var(---cor4), var(---cor6), var(---cor1));
+    border: 5px solid var(---cor1) ;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-top-color: #10F9F9;
+    border-bottom-color: #10F9F9;
+    border-radius: 10px;
+    margin: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+h1#titulo2 {
+    text-align: center;
+    color: var(---cor2);
+    font-size: 40px;
+    text-decoration: underline 2px;
+}
+p#paragrafo2{
+    text-align: center;
+    color: var(---cor2);
+    font-size: 20px;
+    text-indent: 30px;
+}
+
+#segundop {
+    padding-top: 30px;
+}
+.segundo {
+    display: inline-block;
+}
+main.segundo {
+    background-image:linear-gradient(to bottom, var(---cor4), var(---cor6), var(---cor1));
+    border: 5px solid var(---cor1) ;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-top-color: #10F9F9;
+    border-bottom-color: #10F9F9;
+    border-radius: 10px;
+    margin: left;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    box-shadow: 5px 5px 5px black;
+}
+#dentro {
+    background-image:linear-gradient(to bottom, var(---cor4), var(---cor6), var(---cor1));
+    border-radius: 40px;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    margin-bottom: 75px;
+    margin-left: 20px;
+}
+h1#titulo3 {
+    text-align: left;
+    color: var(---cor2);
+    font-size: 40px;
+    text-decoration: underline 2px;
+    padding-left: 10px;
+}
+p#paragrafo3{
+    text-align: left;
+    color: var(---cor2);
+    font-size: 20px;
+    text-indent: 30px;
+    padding-left: 10px;
+}
+
+
+
+#terceirop {
+    padding-top: 30px;
+}
+.terceiro {
+    display: inline-block;
+}
+main.terceiro {
+    background-image:linear-gradient(to bottom, var(---cor4), var(---cor6), var(---cor1));
+    border: 5px solid var(---cor1) ;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-top-color: #10F9F9;
+    border-bottom-color: #10F9F9;
+    border-radius: 10px;
+    width: 500px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 750px;
+    box-shadow: 5px 5px 5px black;
+    
+
+}
+#dentro1 {
+    background-image: linear-gradient(to bottom, var(---cor4), var(---cor6), var(---cor1));
+    border-radius: 40px;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    margin-bottom: -170px;
+    margin-left: 1285px;
+}
+h1#titulo4 {
+    text-align: center;
+    color: var(---cor2);
+    font-size: 40px;
+    text-decoration: underline 2px;
+    padding-right: 10px;
+}
+p#paragrafo4 {
+    text-align: right;
+    color: var(---cor2);
+    font-size: 20px;
+    text-indent: 30px;
+    padding-right: 10px;
+}
+
+footer#float {
+    background-image:linear-gradient(to bottom, var(---cor4), var(---cor6), var(---cor1));
+    color: var(---cor2);
+    margin: auto;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: bottom;
+    
+}
+
+#ultimop {
+    text-align: center;
+
+
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino de imagens</title>
+</head>
+<body>
+    <h1>Treino para imagens</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img-m.png" type="image/png">
+        <img src="img-g.png" alt="imagem jogo lords of the fallen">
+    </picture>
+    <h1>Agora treino de audio</h1>
+    <audio src="ariamath.mp3" controls autoplay>
+        <source src="ariamath.mp3" type="audio/mpeg">
+        <source src="ariamath.mp3" type="audio/ogg">
+        <source src="ariamath.mp3" type="audio/imagewav">
+    </audio>
+        <audio preload="metadata" autoplay controls loop>
+        <source src="ariamath.mp3" type="audio/mpeg">
+        <source src="ariamath.mp3" type="audio/ogg">
+        <source src="ariamath.mp3" type="audio/imagewav">
+        <p>Infelizmente seu navegador não suporta esse tipo de aúdio</p>
+    <a href="ariamath.mp3">Download clicando aqui</a></audio>
+    
+</body>
+</html>

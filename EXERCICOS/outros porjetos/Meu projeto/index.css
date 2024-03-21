@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body {
+    background-image:linear-gradient(to right, rgb(166, 225, 250), rgb(14, 107, 168), rgb(10, 36, 114));
+}
+#letra {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+main {
+    background-color: rgb(202, 233, 255);
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    border:5px solid rgb(27, 73, 101);
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.479);
+}
+#menu1{
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(14, 107, 168);
+    width: 300px ;
+    padding: 20px;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.479);
+}
+
+div {
+    background-color: rgb(14, 107, 168); ;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px 0px 20px 0px;
+    padding: 10px; ;
+    width:400px;
+    height: 60px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.479);
+    
+}
+.menu3{
+    color: white;
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+}
+.menu3:hover {
+    text-decoration: underline;
+}
+
+.menu3 > p {
+    display: none;
+}
+.menu3:hover >p {
+    display: block;
+}
+.link {
+    background-color: rgb(0, 7, 45);
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    display:inline-flex;
+}
+.link:hover {
+    text-decoration: underline;
+    color: blue;
+}
+

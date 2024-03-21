@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando uma tabelas mais "trabalhada"</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            border: 3px solid black;
+
+        }
+        tr {
+
+        }
+
+
+        .number {
+            text-align: center;
+            width: 100px;
+        }
+        .alinhamento {
+            text-align: right;
+            width: 600px;
+            padding-right: 20px;
+            text-decoration: underline;
+
+        }
+        .estado {
+            text-indent: 10px;
+            width: 600px;
+        }
+
+        th{
+            border:1px solid black;
+            background-color: gray;
+            color: white;
+            text-align: center;
+    
+        }
+        tr:nth-child(2n) {
+            background-color: gray;
+        }
+        td {
+            border:1px solid black;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>colocação</th>
+                <th>estado</th>
+                <th>população</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td class="number"> 1 </td>
+                <td class="estado">São Paulo</td>
+                <td class="alinhamento">44 411 238</td>
+            </tr>
+            <tr>
+                <td class="number"> 2 </td>
+                <td class="estado">Minas Gerais</td>
+                <td class="alinhamento">20 538 718</td>
+            </tr>
+            <tr>
+                <td class="number"> 3 </td>
+                <td class="estado"> Rio de Janeiro</td>
+                <td class="alinhamento">16 054 524</td>
+            </tr> 
+            <tr>
+                <td class="number"> 4 </td>
+                <td class="estado">Bahia</td>
+                <td class="alinhamento">14 141 626</td>
+            </tr>
+            <tr>
+                <td class="number"> 5 </td>
+                <td class="estado">Paraná</td>
+                <td class="alinhamento">11 444 380</td>
+            </tr>
+            <tr>
+                <td class="number"> 6 </td>
+                <td class="estado"> Rio Grande do Sul</td>
+                <td class="alinhamento">10 882 965</td>
+            </tr>
+            <tr>
+                <td class="number"> 7 </td>
+                <td class="estado">Pernambuco	</td>
+                <td class="alinhamento">9 058 931	</td>
+            </tr>
+            <tr>
+                <td class="number"> 8 </td>
+                <td class="estado">Ceará</td>
+                <td class="alinhamento">8 794 957</td>
+            </tr>
+            <tr>
+                <td class="number"> 9 </td>
+                <td class="estado">Pará</td>
+                <td class="alinhamento">8 121 025</td>
+            </tr>
+            <tr>
+                <td class="number"> 10 </td>
+                <td class="estado">Santa Catarina</td>
+                <td class="alinhamento">7 610 361</td>
+            </tr>
+            <tr>
+                <td class="number"> 11 </td>
+                <td class="estado">Goiás</td>
+                <td class="alinhamento">7 056 495</td>
+            </tr>
+            <tr>
+                <td class="number"> 12 </td>
+                <td class="estado">Maranhão</td>
+                <td class="alinhamento">6 775 805</td>
+            </tr>
+            <tr>
+                <td class="number"> 13 </td>
+                <td class="estado">Paraíba</td>
+                <td class="alinhamento">3 974 687</td>
+            </tr>
+            <tr>
+                <td class="number"> 14 </td>
+                <td class="estado">Amazonas</td>
+                <td class="alinhamento">3 941 613</td>
+            </tr>
+            <tr>
+                <td class="number"> 15 </td>
+                <td class="estado">Espírito Santo</td>
+                <td class="alinhamento">3 833 712</td>
+            </tr>
+            <tr>
+                <td class="number"> 16 </td>
+                <td class="estado">Mato Grosso</td>
+                <td class="alinhamento">3 658 649</td>
+            </tr>
+            <tr>
+                <td class="number"> 17 </td>
+                <td class="estado">Rio Grande do Norte</td>
+                <td class="alinhamento">3 302 729</td>
+            </tr>
+            <tr>
+                <td class="number"> 18 </td>
+                <td class="estado">Piauí</td>
+                <td class="alinhamento">3 271 199</td>
+            </tr>
+            <tr>
+                <td class="number"> 19 </td>
+                <td class="estado">Alagoas</td>
+                <td class="alinhamento">3 127 683</td>
+            </tr>
+            <tr>
+                <td class="number"> 20 </td>
+                <td class="estado">Distrito Federal</td>
+                <td class="alinhamento">2 817 381</td>
+            </tr>
+            <tr>
+                <td class="number"> 21 </td>
+                <td class="estado">Mato Grosso do Sul</td>
+                <td class="alinhamento">2 757 013</td>
+            </tr>
+            <tr>
+                <td class="number"> 22 </td>
+                <td class="estado">Sergipe</td>
+                <td class="alinhamento">2 209 558</td>
+            </tr>
+            <tr>
+                <td class="number"> 23 </td>
+                <td class="estado">Rondônia</td>
+                <td class="alinhamento">1 581 196	</td>
+            </tr>
+            <tr>
+                <td class="number"> 24 </td>
+                <td class="estado">Tocantins</td>
+                <td class="alinhamento">1 511 460</td>
+            </tr>
+            <tr>
+                <td class="number"> 25 </td>
+                <td class="estado">Acre</td>
+                <td class="alinhamento">830 018</td>
+            </tr>
+            <tr>
+                <td class="number"> 26 </td>
+                <td class="estado">Amapá</td>
+                <td class="alinhamento">733 759</td>
+            </tr>
+            <tr>
+                <td class="number"> 27 </td>
+                <td class="estado">Roraima</td>
+                <td class="alinhamento">636 707</td>
+            </tr>
+        </tbody>
+
+
+        <tfoot>
+            <tr>
+                <th></th>
+                <th>Total de Habitantes</th>
+                <th><strong class="alinhamento">203 062 512</strong></th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>teste de select e label e mais algumas coisas ai</h1>
+    <p>
+        <label for="teste">o teste</label>
+        <select name="teste" id="teste">
+            <option value="" selected>---escolha---</option>
+        <optgroup label="tudo safado">
+        <option value="MG">Minas Gerais</option>
+        <option value="SP">São Paulo</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="SC">Santa Catarina</option></select></optgroup>
+    </p>
+
+    <h1>teste de caixa branca com listas no meio</h1>
+
+    <p>
+        <label for="iprof"> o segundo</label>
+        <input type="text" name="prof" id="iprof" list="istprof">
+        <datalist id="istprof">
+        <option value="quenga">rapariga</option>
+            <option value="advogado">protetor de ladrão</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="area"></label>
+        <textarea name="a" id="area" cols="30" rows="10"></textarea>
+    </p>
+
+    <h1>teste de caixa com checkbox</h1>
+
+    <fieldset>
+        <legend style="font-weight: bold; text-decoration: underline; border: solid 2px black;">emprego ou não</legend>
+        <input type="checkbox" name="emprego" id="iemprego"><label for="iemprego">emprego</label><br>
+        <input type="checkbox" name="desemprego" id="idesemprego"><label for="idesemprego">desemprego</label>
+    </fieldset>
+
+    <h1>teste de caixa com radio</h1>
+    <fieldset>
+        <legend>sexo</legend>
+        <input type="radio" name="sexo" id="ihomem"><label for="ihomem">homem</label>
+        <input type="radio" name="sexo" id="imulher"><label for="imulher">mulher</label>
+    </fieldset>
+</body>
+</html>

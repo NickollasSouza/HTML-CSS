@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap');
+
+
+:root {
+    ---color1-padrao: #0F0A0A;
+    ---color2-padrao: #00323D;
+    ---color3-padrao: #188C88;
+    ---color4-padrao: #23D1CC;
+    ---color5-padrao: #1FFFBC;
+    ---color6-padrao: #5CFFCE;
+    ---color7-padrao: #85EAE7;
+
+    ---color1-detalhes: ;
+    ---color1-detalhes: ;
+    ---color1-detalhes: ;
+    ---color1-detalhes: ;
+    ---color1-detalhes: ;
+    ---color1-detalhes: ;
+    ---color1-detalhes: ;
+
+    ---fonte-permanentmarker:'Permanent Marker';
+    ---fonte-miriamlibre:'Miriam Libre';
+    ---font-madimi:'Madimi One';
+}
+/* tirando os espaços do meio do site */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#testa {
+    background-image:linear-gradient(to right, #0F0A0A, #00323D, #188C88);
+    width: auto;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    text-indent: 20px;
+    font-family: var(---font-madimi);
+}
+
+
+#tituloprincipal {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 150px;
+    font-family: var(---fonte-permanentmarker);
+    color: #23D1CC;
+    text-decoration: underline 1px;
+}
+#paragrafoprincipal {
+    position: absolute;
+    bottom: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline 2px;
+    color: #23D1CC;
+
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+/* tramanho do video */
+section #tamanho {
+    width: 100%;
+    min-height: 100vh;
+}
+#ovideo {
+    width: 100%;
+    height: 100%;
+
+}
+div video{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    object-position: center;
+    object-fit: cover;  
+}
+
+#box {
+    width: 50%;
+    height: 50px;
+    
+    z-index: 1;
+    background: linear-gradient(to right, var(---color4-padrao), transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25%;
+}
+
+div#box div#conteudo {
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    text-align: center;
+}
+
+/* tamanho da divisão barra com degrade */
+#divisao {
+    background-image:linear-gradient(to right, #0F0A0A, #00323D, #188C88);
+    width: auto;
+    height: 40px;
+}

@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    ---cor1: #10F9F9;
+    ---cor2: #E5F4E3;
+    ---cor3: #1B61DA;
+    ---cor4: #3A4DBB;
+    ---cor5: #21FDF5;
+    ---cor6: #0A81FF;
+    ---cor7: #BDD4E7;
+    ---font-madimi:'Madimi One';
+}
+
+
+div#imagem {
+    background-color: black;
+    background-image: url('desktop-wallpaper-anime-sky-sky-anime.png');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    
+    
+}
+#titulo1 {
+    display: block;
+    color: var(---cor2);
+    font-family: var(---font-madimi);
+    font-size: 80pt;
+    text-align: center;
+    transform: translateY(30px);
+
+}
+#paragrafo1 {
+    color: var(---cor2);
+    font-family: var(---font-madimi);
+    font-size: 20pt;
+    text-align: center;
+    transform: translateY(30px);
+}
+
+
+
+hr {
+    background: linear-gradient(to right, #3A4DBB, #1B61DA, #1B61DA, #0A81FF, #10F9F9); 
+    margin: 0px;
+    padding-top: 20px ;
+    padding-bottom: 40px ;
+}
+
+article {
+    animation-name: degrade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+    background:linear-gradient(to left , #3A4DBB, #1B61DA, #1B61DA, #0A81FF, #10F9F9, rgb(14, 243, 224)) no-repeat;
+    background-color: #0A81FF;
+    background-size: 300% 300%;
+    padding-top: 200px;
+    height: 900px;
+}
+
+@keyframes degrade {
+    0%{
+        background-position:0 50%;
+        transform: translateY(30px);
+    }
+
+    50%{
+        background-position:100% 50%;
+        transform:translateY(30px);
+    }
+
+    100%{
+        background-position: 0 50%;
+        transform:translateY(30px);
+    }
+}
+
+
+
+#transform1 {
+    
+    animation-name: degrade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+    background:linear-gradient(to right, #3A4DBB, #1B61DA, #1B61DA, #0A81FF, #10F9F9, rgb(14, 243, 224)) no-repeat;
+    background-color: #0A81FF;
+    background-size: 300% 300%;
+    width: 30px;
+    height: 30px;
+    transform: translateX(200px);
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 100%;
+    transition-property: background-color;
+    transition-duration: 3s;
+    
+
+}
+/*----------------- animação ---------------*/
+
+@keyframes degrade {
+    0%{
+        background-position:0 50%;
+        transform: translateY(30px);
+    }
+
+    50%{
+        background-position:100% 50%;
+        transform:translateY(30px);
+    }
+
+    100%{
+        background-position: 0 50%;
+        transform:translateY(30px);
+    }
+}
+
+
+/*------------ transfromação com mouse ------------*/
+#transform1:hover {
+    transition: 2s;
+    width: 500px;
+    height: 300px;
+    background-color: #0A81FF;
+    border-radius: 10px;
+    
+    transform: translateX(50px);
+    animation-play-state: paused;
+    
+}

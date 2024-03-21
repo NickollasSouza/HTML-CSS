@@ -1,0 +1,205 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#tit {
+    background-image:linear-gradient(to bottom, rgb(41, 245, 150), rgb(8, 41, 8));
+    padding: 10px 0px 100px 0px;
+    width: 100;
+}
+body {
+    background-color: rgba(29, 255, 161, 0.856);
+}
+.principal{
+    background-color: white;
+    margin: auto;
+    width: 950px;
+    height: 1770px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.616);
+
+}
+#primeirotitulo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 56, 0);
+    text-align: left;
+    font-size: 40px;
+    text-indent: 30px;
+    padding: 20px 0px 0px 0px ;
+}
+
+#paragrafo1 {
+    text-indent: 30px;
+    padding: 0px 10px 0px 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cordosegundotitulo{
+    background-image:linear-gradient(to right, rgba(0, 128, 0, 0.555), rgba(161, 247, 150, 0.473), white) ;
+    border-radius: 10px;
+    margin: auto;
+    height: 50px;
+    width: 910px;
+}
+#segundo {
+    color: rgb(0, 56, 0);
+    text-align: left;
+    font-size: 40px;
+    text-indent: 10px;
+}
+#paragrafo2 {
+    text-indent: 30px;
+    padding: 0px 10px 0px 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#link1 {
+    text-decoration: none;
+    color: rgb(0, 56, 0);;
+}
+#link1:hover {
+    text-decoration: underline;
+    color: rgb(0, 39, 2);
+}
+#link2 {
+    text-decoration: none;
+    color: rgb(0, 56, 0);;
+}
+#link2:hover {
+    text-decoration: underline;
+    color: rgb(0, 39, 2);
+}
+#umagem1 {
+    margin: auto;
+
+}
+#paragrafo3 {
+    text-indent: 30px;
+    padding: 0px 10px 0px 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#link3 {
+    text-decoration: none;
+    color: rgb(0, 56, 0);;
+}
+#link3:hover {
+    text-decoration: underline;
+    color: rgb(0, 39, 2);
+}
+#terceiro {
+    color: rgb(0, 56, 0);
+    text-align: left;
+    font-size: 40px;
+    text-indent: 10px;
+}
+#cordoterceirotitulo {
+    background-image:linear-gradient(to right, rgba(0, 128, 0, 0.555), rgba(161, 247, 150, 0.473), white) ;
+    border-radius: 10px;
+    margin: auto;
+    height: 50px;
+    width: 910px;
+}
+#paragrafo4 {
+    text-indent: 30px;
+    padding: 0px 10px 0px 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#link4 {
+    text-decoration: none;
+    color: rgb(0, 56, 0);;
+}
+#link4:hover{
+    text-decoration: underline;
+    color: rgb(0, 39, 2);
+}
+#paragrafo5 {
+    text-indent: 30px;
+    padding: 0px 10px 0px 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#link5 {
+    text-decoration: none;
+    color: rgb(0, 56, 0);;
+}
+#link5:hover{
+    text-decoration: underline;
+    color: rgb(0, 39, 2);
+}
+#imagem1 {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+#paragrafo6 {
+    text-indent: 30px;
+    padding: 0px 10px 0px 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#video {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+}
+.osegundo{
+    background-color: rgb(255, 255, 255);
+    padding: 1500px 0px 0px 0px;
+    width: 950px;
+    height: 10px;
+   
+}
+
+#quarto {
+    background-color:rgba(0, 87, 7, 0.753) ;
+    width: 950px;
+    height: 500px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.616);
+}
+#quinto {
+    background-color:rgb(255, 255, 255) ;
+    padding: 90px 0px 0px 0px;
+    width: 950px;
+    height: 600px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.616);
+}
+#sexto {
+    background-color: rgb(79, 241, 220);
+    margin: auto;
+    width: 700px;
+    height: 40px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+#ultimotitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    text-indent: 10px;
+    
+}
+#setimo {
+    background-color: rgb(184, 255, 249);
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    border-radius: 0px 0px 10px 10px;
+}
+#paragrafo7 {
+    text-indent: 30px;
+    padding: 0px 10px 0px 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

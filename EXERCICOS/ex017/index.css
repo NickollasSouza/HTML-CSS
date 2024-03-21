@@ -1,0 +1,43 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+#h2font {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+    color: white;
+}
+.menu {
+    display: inline-block;
+    color: white
+}
+
+#fonte {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+body {
+    background-image:linear-gradient(to right, rgb(135, 247, 255), rgba(9, 160, 152, 0.568), black)
+}
+main {
+    background-color: rgba(95, 222, 253, 0.616);
+    box-shadow: 5px 5px 15px black;
+    width: 35pc;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    border: 10px, solid color(rgb(0, 0, 0));
+    text-align: center;
+    font-size: 12px;
+    
+   
+}
