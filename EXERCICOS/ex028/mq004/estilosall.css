@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* media queries */
+
+/* typical device breakpoint 
+pequenas telas: até 600px
+celular: 600px até 768px
+tablet: 768px até 992px
+desktop: 992px até 1200px
+grendes telas:  acima de 1200px
+*/
+
+
+@media screen and (min-width:600px) and (max-width:768px){
+    body {
+        background-image: url(../imagens/imagens/back-phone.jpg);
+    }
+    img#phone{display: block;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#desktop{display: none;}
+    img#tv{display: none;}
+    
+}
+
+@media print {
+    /* inutil não ha como imprimir background em impressoras
+    body {
+        background-image: url(../imagens/imagens/back-print.jpg);
+    }
+    */
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: block;}
+    img#desktop{display: none;}
+    img#tv{display: none;}
+
+    
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body {
+        background-image: url(../imagens/imagens/back-tablet.jpg)
+    }
+    img#phone{display: none;}
+    img#tablet{display: block;}
+    img#desktop{display: none;}
+    img#tv{display: none;}
+        
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body {
+        background-image: url(../imagens/imagens/back-pc.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#desktop{display: block;}
+    img#tv{display: none;}
+        
+    
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        background-image: url(../imagens/imagens/back-tv.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#desktop{display: none;}
+    img#tv{display: block;}
+    
+}
