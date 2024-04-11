@@ -6,28 +6,36 @@
     ---fonte-poppins:'Poppins'
 }
 
+
+
+
 * {
     padding: 0px;
     margin: 0px;
 }
+
+
+
 
 /* area da cabeça do site */
 #cabeca {
     background-color: rgb(0, 0, 0);
     opacity: 90%;
     background-attachment: scroll;
-    height: 60px;
+    height: 50px;
+    box-shadow: 0px 5px 10px black;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
 }
 #foto1 {
     position: absolute;
+    z-index: 1;
 }
 .login {
     font-family: var(---fonte-poppins);
     font-weight: bold;
-    display: inline-block;
-    position: relative;
-    left: 80%;
-    top: 20%;
 }
 #entrar {
     color: white;
@@ -38,10 +46,14 @@
 }
 #contorno1 {
     width: 92.7px;
+    height: 35px;
     border-radius: 10px;
     transition-property: background-color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
+    position: relative;
+    top: 14%;
+    
 }
 #assine {
     color: white;
@@ -49,6 +61,8 @@
     left: 10%;
     top: 10%;
     text-decoration: none;
+    font-family: var(---fonte-poppins);
+    font-weight: bold;
 }
 #contorno2 {
     background-color: blue;
@@ -58,6 +72,8 @@
     transition-property: background-color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
+    position: relative;
+    top: 14%;
 }
 /* */
 
@@ -65,7 +81,7 @@
 
 
 
-/* parte personalizada */
+/* parte personalizada transição de elementos em botôes personalizados */
 #contorno1:hover {
     background-color: rgba(255, 255, 255, 0.068);
     width: 92.7px;
@@ -81,9 +97,54 @@
     transition:1s;
     background-color: rgb(98, 0, 255);
 }
+#assinar:hover {
+    transition:1s;
+    background-color: rgb(98, 0, 255);
+}
 /* */
 
+
+
+
+
+/* corpo do site */
 body {
     background-color: black;
     background-image: url(imagens/background-movies-series.png);
+}
+#maximg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 98.7vw;
+}
+#abertura {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#assinar {
+    background-color: blue;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform: translate(-50%, 10%);
+    
+}
+#assine {
+    display: flex;
+    align-items: center;
+}
+#textoabertura {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flexbox;
+    text-align: center;
+    
 }
