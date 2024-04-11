@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <span id="burguer"  class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="imenu">
+            <ul>
+                <li><a href="">opção1</a></li>
+                <li><a href="">opção2</a></li>
+                <li><a href="">opção3</a></li>
+                <li><a href="">opção4</a></li>
+                <li><a href="">opção5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h1>testando midia queries</h1>
+
+            <h2>Pesquisadores encontram vestígios surpreendentes que desafiam conhecimentos prévios sobre a região</h2>
+
+            <p>
+                Na última expedição realizada por uma equipe de arqueólogos na   densa selva amazônica, uma descoberta extraordinária veio à tona, lançando luz sobre uma antiga civilização até então desconhecida. Os pesquisadores, liderados pelo renomado arqueólogo Dr. Eduardo Vasquez, tropeçaram em vestígios de uma cidade perdida que remonta a milhares de anos atrás.
+                
+            </p>
+
+            <p>
+                As ruínas, escondidas em meio à vegetação exuberante e inexplorada da Amazônia, desafiam os conceitos anteriores sobre a ocupação humana na região. "Estamos diante de algo verdadeiramente excepcional", disse o Dr. Vasquez em uma entrevista exclusiva. "Essas descobertas sugerem uma civilização avançada que prosperou em uma área que há muito se acreditava ser inabitável."
+            </p>
+
+            <p>
+                Os artefatos descobertos incluem esculturas intricadamente esculpidas, cerâmicas decoradas com motivos desconhecidos e até mesmo vestígios de estruturas arquitetônicas complexas. "A arte e a arquitetura desses povos antigos indicam um alto nível de sofisticação cultural e tecnológica", explicou a Dra. Sofia Ramirez, membro da equipe de pesquisa.
+            </p>
+
+            <p>
+                A descoberta promete reescrever os livros de história, desafiando a noção anterior de que a Amazônia era habitada apenas por sociedades pequenas e dispersas. "Este é um verdadeiro tesouro arqueológico", comentou o Dr. Vasquez. "Nossas descobertas não apenas expandem nosso entendimento sobre a história da região, mas também nos lembram da importância de preservar essas áreas remotas e selvagens."
+            </p>
+
+            <p>
+                Enquanto os pesquisadores continuam a explorar e documentar a cidade perdida, o mundo aguarda ansiosamente por mais revelações sobre essa fascinante civilização que um dia floresceu no coração da selva amazônica.
+            </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (imenu.style.display =='block') {
+                imenu.style.display ='none'
+            } 
+
+            else {
+                imenu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
