@@ -19,7 +19,19 @@
 
 
 /* area da cabeça do site */
-#cabeca {
+#cabeca1 {
+    background-color: rgb(0, 0, 0);
+    opacity: 80%;
+    background-attachment: scroll;
+    height: 50px;
+    padding-bottom: 4px;
+    gap: 5px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 5px;
+}
+#cabeca2 {
     background-color: rgb(0, 0, 0);
     opacity: 90%;
     background-attachment: scroll;
@@ -29,14 +41,20 @@
     display: flex;
     justify-content: end;
     gap: 5px;
-}
-#foto1 {
-    position: absolute;
+    position: fixed;
     z-index: 1;
+    top: 0;
+    width: 100vw
+}
+
+#foto1 {
+    
+    z-index: 5;
 }
 .login {
     font-family: var(---fonte-poppins);
     font-weight: bold;
+    font-size: 1em;
 }
 #entrar {
     color: white;
@@ -84,7 +102,7 @@
 
 /* parte personalizada transição de elementos em botôes personalizados */
 #contorno1:hover {
-    background-color: rgba(255, 255, 255, 0.068);
+    background-color: rgba(255, 255, 255, 0.329);
     width: 92.7px;
     height: 35px;
     border-radius: 10px;
@@ -115,6 +133,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+    margin-top: 100px;
     
 }
 #abertura {
@@ -161,6 +180,8 @@ body {
     transform: translate(-50%);
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #area1 {
     background-image: url(imagens/WB-Default.webp);
@@ -213,3 +234,105 @@ body {
     background-position: center center;
 }
 /* */
+
+
+
+
+
+/* area de planos */
+#planos {
+    background-image: linear-gradient(to bottom, rgb(62, 9, 207), rgb(77, 0, 128));
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px black;
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    color: white;
+    font-family: var(---fonte-poppins);
+}
+.areadeplanos {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+#pla1{
+    position: absolute;
+    left: 5%;
+
+}
+#pla2{
+    position: absolute;
+    left: 35.2%;
+
+}
+#pla3{
+    position: absolute;
+    left: 64%;
+    margin-left: 20px;
+
+}
+.titulo {
+    color: rgb(78, 9, 99);
+    position: relative;
+    top: 5%;
+    margin-left: 20px;
+    font-family: var(---fonte-poppins);
+    
+
+}
+#title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.quebra {
+    color: rgb(0, 0, 0);
+    width: 340px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.textodosplanos {
+    color: rgb(114, 0, 180);
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 1.1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.negrito {
+    color: rgb(53, 0, 83);
+    font-weight: bold;
+    
+}
+.preco {
+    color: rgb(53, 0, 83);
+    font-weight: bold;
+    font-size: 2em;
+    font-family: var(---fonte-poppins);
+}
+
+
+
+/* pé do site */
+#pe {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0%;    
+
+    width: 100%;
+    font-family: var(---fonte-poppins);
+}
+#negritodope {
+    color: rgb(211, 23, 211);
+    font-weight: bold;
+}
