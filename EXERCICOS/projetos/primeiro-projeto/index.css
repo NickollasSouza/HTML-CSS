@@ -243,38 +243,47 @@ body {
 #planos {
     background-image: linear-gradient(to bottom, rgb(62, 9, 207), rgb(77, 0, 128));
     border-radius: 20px;
-    box-shadow: 0px 5px 10px black;
+    box-shadow: 0px -10px 10px black;
     width: 100%;
     height: 600px;
+    margin-top: 70px;
+    border-bottom: 70px;
     display: inline-block;
     color: white;
     font-family: var(---fonte-poppins);
 }
 .areadeplanos {
-    width: 400px;
-    height: 400px;
+    width: 370px;
+    height: 500px;
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
     display: inline-block;
     margin-top: 30px;
+    box-shadow: 0px 10px 15px rgb(29, 0, 63);
+}
+.areadeplanos:hover {
+    animation-name: rotate;
+    animation-duration: 3s;
+}
+@keyframes rotate{
+    100%{
+        transform: rotatey(40dreg);
+    }
 }
 #pla1{
     position: absolute;
     left: 5%;
-
 }
 #pla2{
     position: absolute;
     left: 35.2%;
-
 }
 #pla3{
     position: absolute;
     left: 64%;
     margin-left: 20px;
-
 }
 .titulo {
     color: rgb(78, 9, 99);
@@ -282,7 +291,6 @@ body {
     top: 5%;
     margin-left: 20px;
     font-family: var(---fonte-poppins);
-    
 
 }
 #title {
@@ -303,7 +311,7 @@ body {
 .textodosplanos {
     color: rgb(114, 0, 180);
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 1.1em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -312,12 +320,147 @@ body {
     font-weight: bold;
     
 }
-.preco {
+#preco1 {
     color: rgb(53, 0, 83);
     font-weight: bold;
     font-size: 2em;
     font-family: var(---fonte-poppins);
+    text-align: center;
+    position: relative;
+    top: 40%;
 }
+#preco2 {
+    color: rgb(53, 0, 83);
+    font-weight: bold;
+    font-size: 2em;
+    font-family: var(---fonte-poppins);
+    text-align: center;
+    position: relative;
+    top: 34%;
+}
+#preco3 {
+    color: rgb(53, 0, 83);
+    font-weight: bold;
+    font-size: 2em;
+    font-family: var(---fonte-poppins);
+    text-align: center;
+    position: relative;
+    top: 28%;
+}
+.planototal {
+    color: rgb(114, 0, 180);
+    text-decoration: underline;
+    position: relative;
+    left: 24%;
+}
+#planot1{
+    position: relative;
+    top: 33%;
+    left: 22%;
+}
+#planot2{
+    position: relative;
+    top: 27%;
+    left: 22%;
+}
+#planot3{
+    position: relative;
+    top: 21%;
+    left: 22%;
+}
+
+
+
+
+/* parte dos botoes de cada plano */
+#botao1{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+#abotao1 {
+    background-color: blue;
+    width: 180px;
+    height: 41px;
+    position: relative;
+    left: 51%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+}
+#botao1:hover {
+    color: rgb(202, 160, 241);
+}
+#abotao1:hover {
+    transition-duration: 1s;
+    background-color: rgb(98, 0, 255);
+}
+
+
+
+#botao2 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+#abotao2 {
+    background-color: blue;
+    width: 180px;
+    height: 41px;
+    position: relative;
+    left: 51%;
+    top: 31.5%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+}
+#botao2:hover {
+    color: rgb(202, 160, 241);
+}
+#abotao2:hover {
+    transition-duration: 1s;
+    background-color: rgb(98, 0, 255);
+}
+
+
+
+#botao3 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+#abotao3 {
+    background-color: blue;
+    width: 180px;
+    height: 41px;
+    position: relative;
+    left: 51%;
+    top: 25.5%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#botao3:hover {
+    color: rgb(202, 160, 241);
+}
+#abotao3:hover {
+    transition-duration: 1s;
+    background-color: rgb(98, 0, 255);
+}
+/* */
 
 
 
