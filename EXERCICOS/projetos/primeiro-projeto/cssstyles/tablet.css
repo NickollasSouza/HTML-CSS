@@ -1,0 +1,534 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+    /* media querie para tablet */
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    
+
+    :root {
+        ---fonte-poppins:'Poppins'
+    }
+    
+    
+    
+    
+     * {
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    
+    
+    
+    
+    /* area da cabeça do site */
+    #cabeca1 {
+        background-color: rgb(0, 0, 0);
+        opacity: 80%;
+        background-attachment: scroll;
+        height: 50px;
+        padding-bottom: 4px;
+        gap: 5px;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 5px;
+    }
+    #cabeca2 {
+        background-color: rgb(0, 0, 0);
+        opacity: 90%;
+        background-attachment: scroll;
+        height: 50px;
+        box-shadow: 0px 5px 10px black;
+        padding-bottom: 4px;
+        display: flex;
+        justify-content: end;
+        gap: 5px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        width: 100vw
+    }
+    
+    #img {
+        width: 100%;
+        height: 250px;
+    }
+    
+    #foto1 {
+        
+        z-index: 5;
+    }
+    .login {
+        font-family: var(---fonte-poppins);
+        font-weight: bold;
+        font-size: 1em;
+    }
+    #entrar {
+        color: white;
+        text-decoration: none;
+        position: relative;
+        top: 4px;
+        left: 15%;
+    }
+    #contorno1 {
+        width: 92.7px;
+        height: 35px;
+        border-radius: 10px;
+        transition-property: background-color;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        position: relative;
+        top: 14%;
+        
+    }
+    #assine {
+        color: white;
+        position: relative;
+        left: 10%;
+        top: 10%;
+        text-decoration: none;
+        font-family: var(---fonte-poppins);
+        font-weight: bold;
+    }
+    #contorno2 {
+        background-color: blue;
+        border-radius: 10px;
+        width: 150px; 
+        height: 35px;
+        transition-property: background-color;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        position: relative;
+        top: 14%;
+    }
+    /* */
+    
+    
+    
+    
+    
+    /* parte personalizada transição de elementos em botôes personalizados */
+    #contorno1:hover {
+        background-color: rgba(255, 255, 255, 0.329);
+        width: 92.7px;
+        height: 35px;
+        border-radius: 10px;
+        transition: 1s;
+        
+    }
+    #assine:hover {
+        color: rgb(202, 160, 241);
+    }
+    #contorno2:hover {
+        transition:1s;
+        background-color: rgb(98, 0, 255);
+    }
+    #assinar:hover {
+        transition:1s;
+        background-color: rgb(98, 0, 255);
+    }
+    /* */
+    
+    
+    
+    
+    
+    /* corpo do site */
+    body {
+        background-color: black;
+        background-image: url(imagens/background-movies-series.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        margin-top: 100px;
+        width: 100%;
+        
+    }
+    #abertura {
+        color: white;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    #assinar {
+        background-color: blue;
+        width: 150px;
+        height: 35px;
+        border-radius: 10px;
+        position: relative;
+        left: 50%;
+        transition-property: background-color;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        transform: translate(-50%, 10%);
+        
+    }
+    #assine {
+        display: flex;
+        align-items: center;
+    }
+    #textoabertura {
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        display: flexbox;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .area {
+        height: 450px;
+        width: 300px;
+        border: solid 3px rgb(98, 0, 255);
+        border-radius: 10px;
+        display: inline-block;
+        gap: 20px;
+        position: relative;
+        left: 19.5%;
+        margin-left:5px;
+        margin-right:5px;
+        transform: translate(-50%);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        transform: transition;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    #area1 {
+        background-image: url(imagens/WB-Default.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        transition-duration: 1s;
+        transition-property: background-image;
+        transition-timing-function: ease-in-out;
+    }
+    #area2 {
+        background-image: url(imagens/DC_Default.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        transition-duration: 1s;
+        transition-property: background-image;
+        transition-timing-function: ease-in-out;
+    }
+    #area3 {
+        background-image: url(imagens/UCL-Default.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        transition-duration: 1s;
+        transition-property: background-image;
+        transition-timing-function: ease-in-out;
+    }
+    
+    /* area de transição de areas das imagens dos quadros roxos */
+    #area1:hover{
+        transition: 2s, 2s;
+        background-image: url(imagens/WB-Hover.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    #area2:hover{
+        transition: 2s, 2s;
+        background-image: url(imagens/DC-Hover.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    #area3:hover{
+        transition: 2s, 2s;
+        background-image: url(imagens/UCL-Hover.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    /* */
+    
+    
+    
+    
+    
+    /* area de planos */
+    #planos {
+        background-image: linear-gradient(to bottom, rgb(62, 9, 207), rgb(77, 0, 128));
+        border-radius: 20px;
+        box-shadow: 0px -10px 10px black;
+        width: 100%;
+        height: 600px;
+        margin-top: 70px;
+        border-bottom: 70px;
+        display: inline-block;
+        color: white;
+        font-family: var(---fonte-poppins);
+    }
+    .areadeplanos {
+        width: 300px;
+        height: 480px;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        display: inline-block;
+        margin-top: 30px;
+        box-shadow: 0px 10px 15px rgb(29, 0, 63);
+        transition: transaform;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    #pla1{
+        position: absolute;
+        left: 6%;
+        transition: transaform;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+    #pla1:hover {
+            transition-duration: 5s;
+            transform: rotatey(30deg);
+    }
+    #pla2{
+        position: absolute;
+        left: 35.9%;
+        transition: transaform;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+    #pla2:hover {
+        transition-duration: 5s;
+        transform: rotatex(30deg);
+        box-shadow: 0px 5px 10px black;
+    }
+    #pla3{
+        position: absolute;
+        left: 65.9%;
+        transition: transaform;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+    #pla3:hover {
+        transition-duration: 5s;
+        transform: rotatey(-30deg);
+        
+    }
+    .titulo {
+        color: rgb(78, 9, 99);
+        position: relative;
+        top: 5%;
+        margin-left: 20px;
+        font-family: var(---fonte-poppins);
+    
+    }
+    #title {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .quebra {
+        color: rgb(0, 0, 0);
+        width: 275px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 2em;
+    }
+    .textodosplanos {
+        color: rgb(114, 0, 180);
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 0.9em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .negrito {
+        color: rgb(53, 0, 83);
+        font-weight: bold;
+        
+    }
+    #preco1 {
+        color: rgb(53, 0, 83);
+        font-weight: bold;
+        font-size: 2em;
+        font-family: var(---fonte-poppins);
+        text-align: center;
+        position: relative;
+        top: 40%;
+    }
+    #preco2 {
+        color: rgb(53, 0, 83);
+        font-weight: bold;
+        font-size: 2em;
+        font-family: var(---fonte-poppins);
+        text-align: center;
+        position: relative;
+        top: 34%;
+    }
+    #preco3 {
+        color: rgb(53, 0, 83);
+        font-weight: bold;
+        font-size: 2em;
+        font-family: var(---fonte-poppins);
+        text-align: center;
+        position: relative;
+        top: 29%;
+    }
+    .planototal {
+        color: rgb(114, 0, 180);
+        text-decoration: underline;
+        position: relative;
+        left: 24%;
+    }
+    #planot1{
+        position: relative;
+        top: 33%;
+        left: 18%;
+    }
+    #planot2{
+        position: relative;
+        top: 27%;
+        left: 18%;
+    }
+    #planot3{
+        position: relative;
+        top: 21%;
+        left: 18%;
+    }
+    
+    
+    
+    
+    /* parte dos botoes de cada plano */
+    #botao1{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+    #abotao1 {
+        background-color: blue;
+        width: 180px;
+        height: 41px;
+        position: relative;
+        left: 51%;
+        top: 38%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        text-align: center;
+        transition-duration: 0.5s;
+        transition-property: background-color;
+        transition-timing-function: ease-in-out;
+    }
+    #botao1:hover {
+        color: rgb(202, 160, 241);
+    }
+    #abotao1:hover {
+        transition-duration: 1s;
+        background-color: rgb(98, 0, 255);
+    }
+    
+    
+    
+    #botao2 {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+    #abotao2 {
+        background-color: blue;
+        width: 180px;
+        height: 41px;
+        position: relative;
+        left: 51%;
+        top: 31.5%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        text-align: center;
+        transition-duration: 0.5s;
+        transition-property: background-color;
+        transition-timing-function: ease-in-out;
+    }
+    #botao2:hover {
+        color: rgb(202, 160, 241);
+    }
+    #abotao2:hover {
+        transition-duration: 1s;
+        background-color: rgb(98, 0, 255);
+    }
+    
+    
+    
+    #botao3 {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+    #abotao3 {
+        background-color: blue;
+        width: 180px;
+        height: 41px;
+        position: relative;
+        left: 51%;
+        top: 25.5%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        text-align: center;
+        transition-property: background-color;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+    #botao3:hover {
+        color: rgb(202, 160, 241);
+    }
+    #abotao3:hover {
+        transition-duration: 1s;
+        background-color: rgb(98, 0, 255);
+    }
+    /* */
+    
+    /* mini texto de baixo dos pacotes do site */
+    #minitex {
+        color: white;
+        font-size: 0.8em;
+        margin-left: 28%;
+    }
+    #linkminitex {
+        color: rgb(134, 4, 221);
+        text-decoration: none;
+    }
+    #linkminitex:hover {
+        color: rgb(32, 0, 90);
+        text-decoration: underline;
+    }
+    
+    
+    
+    
+    
+    /* pé do site */
+    #pe {
+        background-color: black;
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 0%;    
+    
+        width: 100%;
+        font-family: var(---fonte-poppins);
+    }
+    #negritodope {
+        color: rgb(211, 23, 211);
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    }
