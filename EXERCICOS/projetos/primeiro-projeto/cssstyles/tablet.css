@@ -5,7 +5,8 @@
 
 
     /* media querie para tablet */
-@media screen and (min-width:768px) and (max-width:992px) {
+/* colocamos media ONLY o only serve para que o arquivo de media querye seja carregado c0m 100% de certeza assim o navehador o interpretara isso evita possiveis erros de interpretação do navegador e faz com que ele o acrregue de maneira correta ate mesmo se o navegador for um pouco mais antigo isso ajuda fazendo com que ele leio o arquivo  */
+@media only screen and (min-width:768px) and (max-width:992px) {
 
     
 
@@ -141,7 +142,7 @@
     /* corpo do site */
     body {
         background-color: black;
-        background-image: url(imagens/background-movies-series.png);
+        background-image: url(../imagens/background-movies-series.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: right;
@@ -200,8 +201,9 @@
         transition-timing-function: ease-in-out;
         
     }
+    /* quando formos informar onde a imagem esta caso o css esteja em uma pasta clicamos e adicionas um ponto . pois isso significa que ele voltara uma pasta no caso ele ira sair da pasta do css e clicamos e adicionamos outro ponto . para que o vscode reconheça que entraremos em outra pasta e damos /  para que ele identifique as pastas presentes no arquivo apos isso selecionamos a pasta e colocamos o elemento que queremos que nem no codigo logo abaixo */
     #area1 {
-        background-image: url(imagens/WB-Default.webp);
+        background-image: url(../imagens/WB-Default.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -210,7 +212,7 @@
         transition-timing-function: ease-in-out;
     }
     #area2 {
-        background-image: url(imagens/DC_Default.webp);
+        background-image: url(../imagens/DC_Default.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -219,7 +221,7 @@
         transition-timing-function: ease-in-out;
     }
     #area3 {
-        background-image: url(imagens/UCL-Default.webp);
+        background-image: url(../imagens/UCL-Default.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -229,23 +231,24 @@
     }
     
     /* area de transição de areas das imagens dos quadros roxos */
+    /* quando formos informar onde a imagem esta caso o css esteja em uma pasta clicamos e adicionas um ponto . pois isso significa que ele voltara uma pasta no caso ele ira sair da pasta do css e clicamos e adicionamos outro ponto . para que o vscode reconheça que entraremos em outra pasta e damos /  para que ele identifique as pastas presentes no arquivo apos isso selecionamos a pasta e colocamos o elemento que queremos que nem no codigo logo abaixo */
     #area1:hover{
         transition: 2s, 2s;
-        background-image: url(imagens/WB-Hover.webp);
+        background-image: url(../imagens/WB-Hover.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
     }
     #area2:hover{
         transition: 2s, 2s;
-        background-image: url(imagens/DC-Hover.webp);
+        background-image: url(../imagens/DC-Hover.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
     }
     #area3:hover{
         transition: 2s, 2s;
-        background-image: url(imagens/UCL-Hover.webp);
+        background-image: url(../imagens/UCL-Hover.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
