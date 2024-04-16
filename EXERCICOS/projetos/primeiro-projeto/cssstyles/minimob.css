@@ -194,11 +194,7 @@ body {
     width: 250px;
     border: solid 3px rgb(98, 0, 255);
     border-radius: 10px;
-    display: inline-block;
     gap: 20px;
-    margin-left:5px;
-    margin-right:5px;
-    transform: translate(-50%);
     margin-top: 30px;
     margin-bottom: 30px;
     transform: transition;
@@ -206,6 +202,9 @@ body {
     transition-timing-function: ease-in-out;
     
 }
+
+
+
 /* quando formos informar onde a imagem esta caso o css esteja em uma pasta clicamos e adicionas um ponto . pois isso significa que ele voltara uma pasta no caso ele ira sair da pasta do css e clicamos e adicionamos outro ponto . para que o vscode reconheça que entraremos em outra pasta e damos /  para que ele identifique as pastas presentes no arquivo apos isso selecionamos a pasta e colocamos o elemento que queremos que nem no codigo logo abaixo */
 #area1 {
     background-image: url(../imagens-mobile/WB-Default.png);
@@ -216,7 +215,8 @@ body {
     transition-property: background-image;
     transition-timing-function: ease-in-out;
     position: relative;
-    left: 26%;
+    left: 50%;
+    transform: translate(-50%);
 }
 #area2 {
     background-image: url(../imagens-mobile/DC_Default.png);
@@ -227,7 +227,8 @@ body {
     transition-property: background-image;
     transition-timing-function: ease-in-out;
     position: relative;
-    left: 32%;
+    left: 50%;
+    transform: translate(-50%);
 }
 #area3 {
     background-image: url(../imagens-mobile/UCL-Default.png);
@@ -238,7 +239,7 @@ body {
     transition-property: background-image;
     transition-timing-function: ease-in-out;
     position: relative;
-    left: 49.5%;
+    left: 50%;
     transform: translate(-50%);
 }
 
@@ -277,7 +278,7 @@ body {
     border-radius: 20px;
     box-shadow: 0px -10px 10px black;
     width: 100%;
-    height: 1750px;
+    height: 1500px;
     display: inline-block;
     margin-top: 70px;
     border-bottom: 70px;
@@ -285,8 +286,8 @@ body {
     font-family: var(---fonte-poppins);
 }
 .areadeplanos {
-    width: 320px;
-    height: 480px;
+    width: 280px;
+    height: 420px;
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -300,7 +301,7 @@ body {
 
 #pla1{
     position: relative;
-    left: 25%;
+    left: 23%;
     transition: transaform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -311,7 +312,7 @@ body {
 }
 #pla2{
     position: relative;
-    left: 25%;
+    left: 23%;
     transition: transaform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -323,7 +324,7 @@ body {
 }
 #pla3{
     position: relative;
-    left: 25%;
+    left: 23%;
     transition: transaform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -342,15 +343,17 @@ body {
 
 }
 #title {
-    position: absolute;
+    text-align: center;
+    position: relative;
+    font-size: 2em;
     left: 50%;
     transform: translate(-50%);
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .quebra {
     color: rgb(0, 0, 0);
-    width: 275px;
+    width: 235px;
     margin-left: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -358,7 +361,7 @@ body {
 }
 .textodosplanos {
     color: rgb(114, 0, 180);
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 10px;
     font-size: 0.9em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -375,7 +378,7 @@ body {
     font-family: var(---fonte-poppins);
     text-align: center;
     position: relative;
-    top: 40%;
+    top: 33%;
 }
 #preco2 {
     color: rgb(53, 0, 83);
@@ -384,7 +387,7 @@ body {
     font-family: var(---fonte-poppins);
     text-align: center;
     position: relative;
-    top: 34%;
+    top: 36%;
 }
 #preco3 {
     color: rgb(53, 0, 83);
@@ -393,7 +396,7 @@ body {
     font-family: var(---fonte-poppins);
     text-align: center;
     position: relative;
-    top: 29%;
+    top: 30%;
 }
 .planototal {
     color: rgb(114, 0, 180);
@@ -403,18 +406,18 @@ body {
 }
 #planot1{
     position: relative;
-    top: 33%;
-    left: 18%;
+    top: 24%;
+    left: 13%;
 }
 #planot2{
     position: relative;
     top: 27%;
-    left: 18%;
+    left: 13%;
 }
 #planot3{
     position: relative;
     top: 21%;
-    left: 18%;
+    left: 13%;
 }
 
 
@@ -432,8 +435,8 @@ body {
     width: 180px;
     height: 41px;
     position: relative;
-    left: 51%;
-    top: 38%;
+    left: 50%;
+    top: 29%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
     text-align: center;
@@ -462,7 +465,7 @@ body {
     width: 180px;
     height: 41px;
     position: relative;
-    left: 51%;
+    left: 50%;
     top: 31.5%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
@@ -492,7 +495,7 @@ body {
     width: 180px;
     height: 41px;
     position: relative;
-    left: 51%;
+    left: 50%;
     top: 25.5%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
