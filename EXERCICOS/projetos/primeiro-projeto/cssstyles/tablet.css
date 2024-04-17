@@ -190,7 +190,7 @@
         display: inline-block;
         gap: 20px;
         position: relative;
-        left: 19.5%;
+        left: 32.5%;
         margin-left:5px;
         margin-right:5px;
         transform: translate(-50%);
@@ -231,6 +231,8 @@
         transition-duration: 1s;
         transition-property: background-image;
         transition-timing-function: ease-in-out;
+        position: relative;
+        left: 50%;
     }
     
     /* area de transição de areas das imagens dos quadros roxos */
@@ -268,7 +270,7 @@
         border-radius: 20px;
         box-shadow: 0px -10px 10px black;
         width: 100%;
-        height: 600px;
+        height: 650px;
         margin-top: 70px;
         border-bottom: 70px;
         display: inline-block;
@@ -276,14 +278,14 @@
         font-family: var(---fonte-poppins);
     }
     .areadeplanos {
-        width: 300px;
+        width: 250px;
         height: 480px;
         background-color: white;
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 10px;
         display: inline-block;
-        margin-top: 30px;
+        margin-top: 80px;
         box-shadow: 0px 10px 15px rgb(29, 0, 63);
         transition: transaform;
         transition-duration: 0.5s;
@@ -331,6 +333,7 @@
         top: 5%;
         margin-left: 20px;
         font-family: var(---fonte-poppins);
+        font-size: 1.2em;
     
     }
     #title {
@@ -339,10 +342,12 @@
         transform: translate(-50%);
         margin-top: 20px;
         margin-bottom: 20px;
+        text-align: center;
+        
     }
     .quebra {
         color: rgb(0, 0, 0);
-        width: 275px;
+        width: 210px;
         margin-left: 20px;
         margin-top: 30px;
         margin-bottom: 20px;
@@ -367,7 +372,7 @@
         font-family: var(---fonte-poppins);
         text-align: center;
         position: relative;
-        top: 40%;
+        top: 45%;
     }
     #preco2 {
         color: rgb(53, 0, 83);
@@ -376,7 +381,7 @@
         font-family: var(---fonte-poppins);
         text-align: center;
         position: relative;
-        top: 34%;
+        top: 36%;
     }
     #preco3 {
         color: rgb(53, 0, 83);
@@ -385,7 +390,7 @@
         font-family: var(---fonte-poppins);
         text-align: center;
         position: relative;
-        top: 29%;
+        top: 27%;
     }
     .planototal {
         color: rgb(114, 0, 180);
@@ -395,18 +400,18 @@
     }
     #planot1{
         position: relative;
-        top: 33%;
-        left: 18%;
+        top: 37%;
+        left: 8%;
     }
     #planot2{
         position: relative;
-        top: 27%;
-        left: 18%;
+        top: 28%;
+        left: 8%;
     }
     #planot3{
         position: relative;
-        top: 21%;
-        left: 18%;
+        top: 19%;
+        left: 8%;
     }
     
     
@@ -425,7 +430,7 @@
         height: 41px;
         position: relative;
         left: 51%;
-        top: 38%;
+        top: 42%;
         transform: translate(-50%, -50%);
         border-radius: 10px;
         text-align: center;
@@ -455,7 +460,7 @@
         height: 41px;
         position: relative;
         left: 51%;
-        top: 31.5%;
+        top: 32.5%;
         transform: translate(-50%, -50%);
         border-radius: 10px;
         text-align: center;
@@ -485,7 +490,7 @@
         height: 41px;
         position: relative;
         left: 51%;
-        top: 25.5%;
+        top: 23.5%;
         transform: translate(-50%, -50%);
         border-radius: 10px;
         text-align: center;

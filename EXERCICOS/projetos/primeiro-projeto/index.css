@@ -182,7 +182,7 @@ body {
     display: inline-block;
     gap: 20px;
     position: relative;
-    left: 19.5%;
+    left: 18.5%;
     margin-left:5px;
     margin-right:5px;
     transform: translate(-50%);
@@ -302,7 +302,7 @@ body {
 }
 #pla3{
     position: absolute;
-    left: 65.9%;
+    left: 64.9%;
     transition: transaform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
