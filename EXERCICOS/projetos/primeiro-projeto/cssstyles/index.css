@@ -134,7 +134,7 @@
 /* corpo do site */
 body {
     background-color: black;
-    background-image: url(imagens/background-movies-series.png);
+    background-image: url(../imagens/background-movies-series.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -194,7 +194,7 @@ body {
     
 }
 #area1 {
-    background-image: url(imagens/WB-Default.webp);
+    background-image: url(../imagens/WB-Default.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -203,7 +203,7 @@ body {
     transition-timing-function: ease-in-out;
 }
 #area2 {
-    background-image: url(imagens/DC_Default.webp);
+    background-image: url(../imagens/DC_Default.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -212,7 +212,7 @@ body {
     transition-timing-function: ease-in-out;
 }
 #area3 {
-    background-image: url(imagens/UCL-Default.webp);
+    background-image: url(../imagens/UCL-Default.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -224,21 +224,21 @@ body {
 /* area de transição de areas das imagens dos quadros roxos */
 #area1:hover{
     transition: 2s, 2s;
-    background-image: url(imagens/WB-Hover.webp);
+    background-image: url(../imagens/WB-Hover.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 #area2:hover{
     transition: 2s, 2s;
-    background-image: url(imagens/DC-Hover.webp);
+    background-image: url(../imagens/DC-Hover.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 #area3:hover{
     transition: 2s, 2s;
-    background-image: url(imagens/UCL-Hover.webp);
+    background-image: url(../imagens/UCL-Hover.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

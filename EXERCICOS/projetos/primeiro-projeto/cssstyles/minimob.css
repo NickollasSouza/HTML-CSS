@@ -207,7 +207,7 @@ body {
 
 /* quando formos informar onde a imagem esta caso o css esteja em uma pasta clicamos e adicionas um ponto . pois isso significa que ele voltara uma pasta no caso ele ira sair da pasta do css e clicamos e adicionamos outro ponto . para que o vscode reconheça que entraremos em outra pasta e damos /  para que ele identifique as pastas presentes no arquivo apos isso selecionamos a pasta e colocamos o elemento que queremos que nem no codigo logo abaixo */
 #area1 {
-    background-image: url(../imagens-mobile/WB-Default.png);
+    background-image: url(../imagens/WB-Default.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -219,7 +219,7 @@ body {
     transform: translate(-50%);
 }
 #area2 {
-    background-image: url(../imagens-mobile/DC_Default.png);
+    background-image: url(../imagens/DC_Default.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -231,7 +231,7 @@ body {
     transform: translate(-50%);
 }
 #area3 {
-    background-image: url(../imagens-mobile/UCL-Default.png);
+    background-image: url(../imagens/UCL-Default.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
