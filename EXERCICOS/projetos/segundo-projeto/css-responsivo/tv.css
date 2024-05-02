@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    ---fonte-karla:'Josefin';
+    ---fonte-platypi:'Platypi';
+    ---fonte-poppins:'Poppins';
+    ---color1:#C0D6DF;
+    ---color2:#DBE9EE;
+    ---color3:#4F6D7A;
+}
+
+* {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+
+
+
+/* area de cabeça do site */
+#cabeca {
+    width: 100%;
+    height: 40px;
+    opacity: 100%;
+    background-attachment: scroll;
+    position: fixed;
+}
+#logo {
+    color: rgb(21, 208, 221);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.9cm;
+    font-family: var(---fonte-platypi);
+    position: absolute;
+    left: 1.5%;
+    z-index: 1;
+    bottom: 1%;
+}
+
+/* botoes e opções de menu da barra no topo da tela do site */
+.opcoes {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+#menu{
+    position: relative;
+    font-family: var(---fonte-poppins);
+    left: 10%;
+    top: 5px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+}
+#menu:hover {
+    background-color: rgba(255, 255, 255, 0.384);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+#catalogo{
+    position: relative;
+    font-family: var(---fonte-poppins);
+    left: 11%;
+    top: 5px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+}
+#catalogo:hover {
+    background-color: rgba(255, 255, 255, 0.384);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+#preco{
+    position: relative;
+    font-family: var(---fonte-poppins);
+    left: 12%;
+    top: 5px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+}
+#preco:hover {
+    background-color: rgba(255, 255, 255, 0.384);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+#plano{
+    position: relative;
+    font-family: var(---fonte-poppins);
+    left: 13%;
+    top: 5px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+}
+#plano:hover {
+    background-color: rgba(255, 255, 255, 0.384);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+#procurar {
+    position: relative;
+    font-family: var(---fonte-poppins);
+    left: 60%;
+    top: 5px;
+    font-size: 0.5cm;
+    width: 100px;
+    text-align: center;
+}
+#procurar:hover {
+    background-color: rgba(255, 255, 255, 0.384);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+#usuario {
+    position: absolute;
+    left: 95%;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 100%;
+
+}
+#areadeconta {
+    background-color: black;
+    height: 100vw;
+    width: 250px;
+    margin-top: 20px;
+    position: absolute;
+    left: 81.5%;
+    border-top-left-radius:40px;
+}
+#lista {
+    font-weight: bold;
+    font-family: var(---fonte-poppins);
+    font-size: 0.5cm;
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.cor {
+    color: white;
+    text-decoration: none;
+}
+.cor:hover {
+    text-decoration: underline;
+}
+/*                                      */
+
+
+
+
+
+/* corpo do site */
+body{
+    background-color: black;
+}
+
+#img {
+    background-image: url(../img/pexels-introspectivedsgn-9331876.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vw;
+    transition-property: background-image;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#img:hover {
+    background-image: url(../img/pexels-introspectivedsgn-5214413.jpg);
+    transition-duration: 0.5s;
+    background-position: center;
+}
+#frase {
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 1cm;
+}
+
+
+
+
+
+/* botão do site na area de inicio */
+.botao {
+    text-align: center;
+}
+#botao1 {
+    background-color: white;
+    height: 50px;
+    width: 170px;
+    text-decoration: none;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    left: 36%;
+    margin-top: 20px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#botao1:hover {
+    background-color: var(---color1);
+    transition-duration: 0.5s;
+}
+#letra1 {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.6cm;
+    font-weight: bold;
+    position: relative;
+    left: 12%;
+    top: 13%;
+    font-family: var(---fonte-poppins);
+}
+
+
+#botao2 {
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    text-decoration: none;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    left: 53%;
+    margin-top: 20px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#botao2:hover {
+    background-color: var(---color3);
+    transition-duration: 0.5;
+}
+#letra2 {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.6cm;
+    font-weight: bold;
+    position: relative;
+    left: 25%;
+    top: 13%;
+    font-family: var(---fonte-poppins);
+
+}
+/*                                      */
+
+
+
+
+/* area de planos do site */
+#areadeplanos {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+}
